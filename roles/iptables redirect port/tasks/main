@@ -16,4 +16,4 @@
     to_ports: '{{ to_port }}'
     comment: 'Redirect web traffic to port {{ to_port }}'
   become: yes
-  notify: restart Tomcat
+  # notify: 'restart {{ service }}'
