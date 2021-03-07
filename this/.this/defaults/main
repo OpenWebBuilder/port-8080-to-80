@@ -1,0 +1,5 @@
+---
+# iptables redirect port
+tomcat_port: '8080'
+from_port: '80'
+to_port: '{{ tomcat_port }}'
